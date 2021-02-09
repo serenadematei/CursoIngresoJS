@@ -15,13 +15,15 @@ function mostrarAumento()
 	//PRIMERA FORMULA
 	descuento = importe * 0.25;
 	resultado = importe - descuento;
-	alert(resultado);
+	
+	txtIdResultado.value = resultado;
 
 
 	//SEGUNDA FORMULA
 	//descuento = importe * 25/100;
 	//resultado = importe - descuento
-	//alert(resultado);
+	//txtIdResultado.value = resultado;
+
 
      
 	
